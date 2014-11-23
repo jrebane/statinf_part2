@@ -84,18 +84,19 @@ predicted by dose level, between each combination of dose levels (i.e.
 0.5 ~ 1.0, 0.5 ~ 2.0, 1.0 ~ 2.0). The primary results from these tests
 are summarized in the chart below.
 
-\begin{table}[ht]
-\centering
-\begin{tabular}{rlrrrr}
-  \hline
- & dose.levels & t.statistic & p.value & conf.int.lower & conf.int.upper \\ 
-  \hline
-1 & 0.5mg-1.0mg & -6.48 & 0.00 & -11.98 & -6.28 \\ 
-  2 & 0.5mg-2.0mg & -11.80 & 0.00 & -18.16 & -12.83 \\ 
-  3 & 1.0mg-2.0mg & -4.90 & 0.00 & -9.00 & -3.73 \\ 
-   \hline
-\end{tabular}
-\end{table}
+    ## \begin{table}[ht]
+    ## \centering
+    ## \begin{tabular}{rlrrrr}
+    ##   \hline
+    ##  & dose.levels & t.statistic & p.value & conf.int.lower & conf.int.upper \\ 
+    ##   \hline
+    ## 1 & 0.5mg-1.0mg & -6.48 & 0.00 & -11.98 & -6.28 \\ 
+    ##   2 & 0.5mg-2.0mg & -11.80 & 0.00 & -18.16 & -12.83 \\ 
+    ##   3 & 1.0mg-2.0mg & -4.90 & 0.00 & -9.00 & -3.73 \\ 
+    ##    \hline
+    ## \end{tabular}
+    ## \end{table}
+
 Because the p-value is less than 0.05 and because the confidence
 interval does not cross 0 for any of the combinations, we can reject
 *H*<sub>0</sub> with at least a 95% confidence interval. This indicates
@@ -121,18 +122,19 @@ We assess this hypothesis by performing three t-tests, with tooth length
 predicted by delivery method level combination at each dose levels. The
 primary results from these tests are summarized in the chart below.
 
-\begin{table}[ht]
-\centering
-\begin{tabular}{rlrrrr}
-  \hline
- & dose.level & t.statistic & p.value & conf.int.lower & conf.int.upper \\ 
-  \hline
-1 & 0.5mg & 3.17 & 0.01 & 1.72 & 8.78 \\ 
-  2 & 1.0mg & 4.03 & 0.00 & 2.80 & 9.06 \\ 
-  3 & 2.0mg & -0.05 & 0.96 & -3.80 & 3.64 \\ 
-   \hline
-\end{tabular}
-\end{table}
+    ## \begin{table}[ht]
+    ## \centering
+    ## \begin{tabular}{rlrrrr}
+    ##   \hline
+    ##  & dose.level & t.statistic & p.value & conf.int.lower & conf.int.upper \\ 
+    ##   \hline
+    ## 1 & 0.5mg & 3.17 & 0.01 & 1.72 & 8.78 \\ 
+    ##   2 & 1.0mg & 4.03 & 0.00 & 2.80 & 9.06 \\ 
+    ##   3 & 2.0mg & -0.05 & 0.96 & -3.80 & 3.64 \\ 
+    ##    \hline
+    ## \end{tabular}
+    ## \end{table}
+
 We can take away the following for this table:
 
 -   For *H*<sub>0</sub> and *H*<sub>1</sub>: Because the p-value is less

@@ -76,7 +76,7 @@ For this test, we ignore delivery methods and consider only the dose level as a 
 
 We assess this hypothesis by performing three t-tests, with tooth length predicted by dose level, between each combination of dose levels (i.e. 0.5 ~ 1.0, 0.5 ~ 2.0, 1.0 ~ 2.0). The primary results from these tests are summarized in the chart below.
 
-```{r dose, echo = F, message=FALSE, results='asis'}
+```{r dose, echo = F, message=FALSE, results='markup'}
 data(ToothGrowth)
 teeth_05_10 <- filter(ToothGrowth, dose == 0.5 | dose == 1.0)
 teeth_05_20 <- filter(ToothGrowth, dose == 0.5 | dose == 2.0)
@@ -118,7 +118,7 @@ Finally, we consider the effect of delivery method while also considering dose l
 
 We assess this hypothesis by performing three t-tests, with tooth length predicted by delivery method level combination at each dose levels. The primary results from these tests are summarized in the chart below.
 
-```{r dd, echo = F, message=FALSE, results='asis'}
+```{r dd, echo = F, message=FALSE, results='markup'}
 data(ToothGrowth)
 teeth_05 <- filter(ToothGrowth, dose == 0.5)
 teeth_10 <- filter(ToothGrowth, dose == 1.0)
