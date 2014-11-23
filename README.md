@@ -12,4 +12,4 @@ The data used in the following analysis is from the `ToothGrow` dataset in the d
 
 > *The response is the length of odontoblasts (teeth) in each of 10 guinea pigs at each of three dose levels of Vitamin C (0.5, 1, and 2 mg) with each of two delivery methods (orange juice or ascorbic acid).*
 
-**[Click here](https://github.com/jrebane/statinf_part2/blob/master/question2.pdf)** to read the dataset analysis and conclusions.
+**[Click here](https://github.com/jrebane/statinf_part2/blob/master/question2.pdf?raw=true)** to read the dataset analysis and conclusions.
