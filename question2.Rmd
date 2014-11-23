@@ -144,8 +144,8 @@ print(xtable(sumtable), comment=F)
 
 We can take away the following for this table:
 
-- For $H_{0}$ and $H_{1}$: Because the p-value is less than 0.05 and because the confidence interval does not cross 0 for either test, we can reject $H_{0}$ and $H_{1}$ with at least a 95% confidence interval. 
-- *For $H_{2}$: Because the p-value is greater than 0.05 and because the confidence interval crosses 0 (-7.571, 0.171), we can not reject the $H_{2}$: within a 95% confidence interval.
+- **For $H_{0}$ and $H_{1}$**: Because the p-value is less than 0.05 and because the confidence interval does not cross 0 for either test, we can reject $H_{0}$ and $H_{1}$ with at least a 95% confidence interval. 
+- **For $H_{2}$**: Because the p-value is greater than 0.05 and because the confidence interval crosses 0 (-7.571, 0.171), we can not reject the $H_{2}$: within a 95% confidence interval.
 
 # Conclusions and Assumptions
 
@@ -179,17 +179,17 @@ ToothGrowth$supp <- factor(ToothGrowth$supp,
 ```
 
 
-## Graph Analysis
+## Basic Exploratory Data Analysis
 
 ```{r code1, ref.label='graph', results='hide', echo=TRUE, eval=F}
 ```
 
-## Dose Comparison
+## Comparing outcomes across delivery methods
 
 ```{r code2, ref.label='dose', results='hide', echo=TRUE}
 ```
 
-## Dose and Delivery Comparison
+## Comparing outcomes across delivery methods and dose levels
 
 ```{r code3, ref.label='dd', results='hide', echo=TRUE}
 ```
